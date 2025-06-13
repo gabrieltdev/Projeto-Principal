@@ -1,0 +1,59 @@
+:root {
+    --cor-de-fundo: #120428;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    background-size: auto;
+}
+
+h1 {
+    font-family: 'Oxanium';
+}
+
+h2 {
+    font-family: 'Oxanium';
+}
+
+p {
+    font-family: 'Open Sans';
+}
+
+.secao-com-segundo-background {
+    background-image: url(/img/fundo2apresentacao.png);
+    background-repeat: no-repeat;
+    background-position-y: 490px;
+    background-size: 99.90%;
+}
+
+.secao-com-terceiro-background {
+    background-image: url(/img/fundo3apresentacao.png);
+    background-repeat: no-repeat;
+    background-position-y: 490px;
+    background-size: 99.90%;
+}
+
+.paragrafo {
+    color: #BFB4D0;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 400;
+    margin: 35px 0;
+}
+
+.titulo {
+    font-family: "Oxanium";
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(to right, #E44963, #FD9452);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

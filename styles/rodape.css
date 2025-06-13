@@ -1,0 +1,128 @@
+footer {
+    position: relative;
+    background-image: url(../img/fundo3apresentacao.png);
+    background-position-y: -1273px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 422px;
+    padding: 75px 138px 0;
+    border-top: 1px solid #593D85;
+    overflow: hidden;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: #ADABAB14;
+    z-index: 0;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-primeiro-container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rodape-titulo {
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(0.05turn, #E44963 10%, #fa7827 30%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.rodape-secao-pesquisa{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 277px;
+    height: 44px;
+}
+
+.rodape-secao-filtro-pesquisar {
+    margin-left: 15px;
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 200;
+    width: 250px;
+    background-color: transparent;
+    color: #BFB4D0;
+}
+
+.rodape-redes-sociais {
+    margin-top: 30px;
+}
+
+.rodape-redes-sociais-icones {
+    margin-right: 20px;
+}
+
+.rodape-lista-titulo {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    color: #BFB4D0;
+}
+
+.rodape-segunda-coluna {
+    margin-left: 78px
+}
+
+.rodape-lista-conteudo {
+    margin: 5px 0 28px 0;
+}
+
+.rodape-lista-botao {
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color: #BFB4D0;
+}
+
+.rodape-linha {
+    background-color: #593D85;
+    height: 1px;
+    width: 1080px;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.rodape-segundo-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 260px;
+    align-items: center;
+    z-index: 1;
+}
+
+.rodape-creditos {
+    font-family: 'Open Sans';
+    color: #BFB4D0;
+    font-size: 14px;
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+.rodape-botao {
+    color: #FFFFFF;
+    background: linear-gradient(to right ,#E44963 20%,#FD9452);
+    padding: 10px 20px;
+    border-radius: 5px;
+    white-space: nowrap;
+}

@@ -1,0 +1,37 @@
+header {
+    height: 144px;
+    background-image: url(../img/fundo1apresentacao.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotipo {
+    margin-left: 156px;
+}
+
+.botoes-cabecalho {
+    font-family: "Open Sans";
+    align-items: center;
+    justify-content: end;
+    margin-right: 96px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.botao-entrar {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 9px 19px;
+    margin-right: 10px;
+}
+
+.botao-anunciar {
+    color: #FFFFFF;
+    background: linear-gradient(to right ,#E44963 ,#FD9452);
+    padding: 10px 20px;
+    border-radius: 5px;
+}

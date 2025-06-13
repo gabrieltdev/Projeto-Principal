@@ -1,0 +1,89 @@
+.terceira-secao {
+    margin:395px 0 90px 120px ;
+    display: flex;
+    justify-content: center;
+    margin-left: 215px;
+}
+
+.terceira-secao-card {
+    background-color: #210948;
+    border-radius: 20px;
+    height: 246px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.titulo-terceira-secao {
+    font-family: 'Oxanium';
+    padding-top: 40px;
+    padding-bottom: 23px;
+    color: #ff4f7a;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 23px;
+}
+
+.titulo-terceira-secao span {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.barra-xp {
+    background-color: #413653;
+    border-radius: 10px;
+    height: 10px;
+    width: 75%;
+    overflow: hidden;
+    margin: 0px 74px;
+}
+
+.progresso {
+    height: 100%;
+    width: 60%;
+    background: linear-gradient(to right, #ff4f7a, #ffa500);
+    position: relative;
+    border-radius: 10px;
+}
+
+.fogo {
+    width: 65px;
+    height: 42px;
+    position: relative;bottom: 28px; left: 50%;
+}
+
+.terceira-secao-paragrafo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #BFB4D0;
+    margin-top: 0px;
+}
+
+.terceira-secao-card-dois {
+    background-color: #210948B2;opacity: 0.7;
+    position: relative; top: 47px; left: 42px;
+    border-radius: 20px;
+    height: 62px;
+    width: 505px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.terceira-secao-card-tres {
+    background-color: #21094880;opacity: 0.5;
+    position: relative; top: 47px; left: 99px;
+    border-radius: 10px;
+    height: 37px;
+    width: 387px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.terceira-secao-imagem-homem-aranha {
+    position: relative;bottom: 250px; right: 125px;
+}
+
+.terceira-secao-imagem-homem-aranha img {
+    width: 785px;
+    height: 785px;
+}

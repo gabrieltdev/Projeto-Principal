@@ -1,0 +1,62 @@
+.quarta-secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 170px 0 170px;
+}
+
+.quarta-secao-titulo {
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(to right, #E44963, #FD9452);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 90px;
+}
+
+.quarta-secao-container {
+    display: flex;
+    justify-content: center;
+}
+
+.quarta-secao-lista {
+    margin: 0;
+    width: 300px;
+}
+
+.quarta-secao-linha {
+    background-color: #210948;
+    position: relative;top: 55px;
+    height: 8px;
+    width: 170px;
+    margin-left: -105px;
+    margin-right: -105px;
+}
+
+.quarta-secao-texto {
+    color: #BFB4D0;
+}
+.quarta-secao-pesquisa{
+    border: 1px solid #ffffff;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #A2A2A238;
+    border-radius: 5px;
+    width: 219px;
+    height: 63px;
+}
+
+.quarta-secao-filtro-pesquisar {
+    border: none;
+    font-family: 'Open Sans';
+    margin:0px 20px 0px 10px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 250px;
+    background-color: transparent;
+    color: #ffffff;
+    opacity: 0.5;
+}

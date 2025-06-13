@@ -1,0 +1,54 @@
+.sexta-secao {
+    display: flex;
+    justify-content: center;
+    position: relative;bottom: 80px;
+    height: 750px;
+}
+
+.sexta-secao-imagem-container {
+    justify-content: center;
+    position: relative;right: 20px;
+}
+
+.sexta-secao-imagem {
+    width: 520px;
+}
+
+.sexta-secao-container{
+    position: relative;top: 130px;
+    margin-left: 50px;
+
+}
+
+.sexta-secao-titulo {
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(to right, #E44963, #FD9452);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.sexta-secao-titulo span {
+    color: #ffffff;
+}
+
+.sexta-secao-paragrafo {
+    margin: 20px 0 40px 0;
+    color: #BFB4D0;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sexta-secao-botao-container {
+    font-family: 'Open Sans';
+    display: flex;
+}
+
+.sexta-secao-botao {
+    color: #FFFFFF;
+    background: linear-gradient(to right ,#E44963 ,#FD9452);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
