@@ -27,14 +27,14 @@ p {
 }
 
 .secao-com-segundo-background {
-    background-image: url(/img/fundo2apresentacao.png);
+    background-image: url(img/fundo2apresentacao.png);
     background-repeat: no-repeat;
     background-position-y: 490px;
     background-size: 99.90%;
 }
 
 .secao-com-terceiro-background {
-    background-image: url(/img/fundo3apresentacao.png);
+    background-image: url(img/fundo3apresentacao.png);
     background-repeat: no-repeat;
     background-position-y: 490px;
     background-size: 99.90%;
