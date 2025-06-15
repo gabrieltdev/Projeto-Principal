@@ -1,9 +1,5 @@
 footer {
     position: relative;
-    background-image: url(../img/fundo3apresentacao.png);
-    background-position-y: -1273px;
-    background-repeat: no-repeat;
-    background-size: 100%;
     height: 422px;
     padding: 75px 138px 0;
     border-top: 1px solid #593D85;
@@ -125,4 +121,8 @@ footer::before {
     padding: 10px 20px;
     border-radius: 5px;
     white-space: nowrap;
+}
+
+@media (max-width: 844px) {
+    
 }

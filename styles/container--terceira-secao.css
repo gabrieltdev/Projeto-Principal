@@ -1,8 +1,9 @@
 .terceira-secao {
-    margin:395px 0 90px 120px ;
+    margin:0px 0 90px 120px ;
     display: flex;
     justify-content: center;
     margin-left: 215px;
+    margin-top: 330px;
 }
 
 .terceira-secao-card {
@@ -86,4 +87,10 @@
 .terceira-secao-imagem-homem-aranha img {
     width: 785px;
     height: 785px;
+}
+
+@media (max-width: 844px) {
+    .terceira-secao {
+
+    }
 }

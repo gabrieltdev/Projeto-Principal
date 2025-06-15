@@ -1,8 +1,5 @@
-header {
+.cabecalho {
     height: 144px;
-    background-image: url(../img/fundo1apresentacao.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +13,7 @@ header {
     font-family: "Open Sans";
     align-items: center;
     justify-content: end;
-    margin-right: 96px;
+    margin-right: 156px;
     font-size: 20px;
     font-weight: 400;
 }
@@ -34,4 +31,36 @@ header {
     background: linear-gradient(to right ,#E44963 ,#FD9452);
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.menu-hamburguer {
+    display: none;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 26px;
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/menu-burger.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+
+@media (max-width: 430px) {
+    .cabecalho {
+        height: 95px;
+    }
+
+    .logotipo {
+        margin-left: 26px;
+        width: 18%;
+    }
+
+    .botoes-cabecalho {
+        display: none;
+    }
+
+    .menu-hamburguer {
+        display: flex;
+    }
 }
