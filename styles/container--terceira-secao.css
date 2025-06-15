@@ -1,9 +1,7 @@
 .terceira-secao {
-    margin:0px 0 90px 120px ;
+    margin:215px 0px 90px 215px ;
     display: flex;
     justify-content: center;
-    margin-left: 215px;
-    margin-top: 330px;
 }
 
 .terceira-secao-card {
@@ -91,6 +89,26 @@
 
 @media (max-width: 844px) {
     .terceira-secao {
+        flex-direction: column-reverse;
+        margin: 0 0 300px 0;
+        text-align: center;
+    }
 
+    .titulo {
+        font-size: 33px;
+    }
+
+    .paragrafo-terceira-secao {
+        width: 90%;
+        text-align: center;
+    }
+
+    .paragrafo {
+        font-size: 20px;
+    }
+
+    .terceira-secao-card {
+    height: 146px;
+    width: 400px;
     }
 }
