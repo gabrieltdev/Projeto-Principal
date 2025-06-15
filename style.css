@@ -16,22 +16,26 @@ html ,body {
     overflow-x: hidden;
 }
 
-
-.background-image {
-    background-image: url(img/fundo1apresentacao.png) ,url(img/fundo2apresentacao.png) ,url(img/fundo3apresentacao.png);
-    background-position: -90px top ,left 1620px ,bottom ;
+.background-image-topo {
+    background-image: url(img/fundo1apresentacao.png);
+    position: relative;
     background-repeat: no-repeat;
 }
 
+
 .overlay {
     display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    position: absolute;top: -220px;
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(to top, var(--cor-de-fundo)22%, rgba(0, 0, 0, 0)60%); 
     z-index: 1;
+}
+
+.background-image {
+    background-image: url(img/fundo2apresentacao.png) ,url(img/fundo3apresentacao.png);
+    background-position: left 1630px ,bottom ;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -69,14 +73,17 @@ p {
 }
 
 @media (max-width: 844px) {
+    .background-image-topo {
+        background-position: -455px top;
+        background-size: 240%;
+    }
+
     .background-image {
-        background-position: -455px top ,-250px 1620px ,bottom ;
-        background-size: 240% ,240%;
+        background-position: -250px 1620px ,bottom ;
+        background-size: 240%;
     }
 
     .overlay {
         display: flex;
-        position: absolute;
-        top: -200px;
     }
 }
