@@ -45,6 +45,7 @@
 @media (max-width: 844px) {
 .quinta-secao {
 margin-top: 80px;
+margin-bottom: -180px;
 }
 
 .quinta-secao-titulo {
