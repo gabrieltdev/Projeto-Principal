@@ -61,7 +61,36 @@
 }
 
 @media (max-width: 844px) {
-    .quarta-secao {
+.quarta-secao {
+    margin-top: 40px;
+}
 
-    }
+.quarta-secao-titulo {
+    font-size: 33px;
+}
+
+.quarta-secao-container {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.quarta-secao-lista {
+    display: flex;
+    gap: 15px;
+    width: 80;
+}
+
+.quarta-secao-imagem {
+    width: 20%;
+}
+
+.quebra-linha {
+    display: inline;
+}
+
+.quarta-secao-texto {
+    font-size: 13px;
+    font-weight: 500;
+}
 }

@@ -1,6 +1,7 @@
 .primeira-secao {
     margin-top: 144px;
     display: flex;
+    justify-content: center;
 }
 
 .primeira-secao-espaço {
