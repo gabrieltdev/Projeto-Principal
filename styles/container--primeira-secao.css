@@ -105,30 +105,30 @@ input::placeholder {
 
 @media (max-width: 430px) {
     .primeira-secao {
-        margin-top: 295px;
+    margin-top: 295px;
     }
 
     .primeira-secao-espaço {
-        padding: 0;
-        text-align: center;
-        align-items: center;
+    padding: 0;
+    text-align: center;
+    align-items: center;
     }
 
     .primeira-secao-titulo {
-        font-size: 33px;
-        z-index: 1;
+    font-size: 33px;
+    z-index: 1;
     }
 
     .primeira-secao-paragrafo {
-        font-size: 17px;
-        margin: 10px 0 10px 0;
+    font-size: 17px;
+    margin: 10px 0 10px 0;
     }
 
     .linha-pesquisar {
-        height: 1px;
-        width: 340px;
-        margin-top: 5px;
-        background-color: #a9a9a9;
+    height: 1px;
+    width: 340px;
+    margin-top: 5px;
+    background-color: #a9a9a9;
     }
 
     .pesquisa {
@@ -136,33 +136,33 @@ input::placeholder {
     flex-direction: column-reverse;
     width: 340px;
     height: 100px;
-    margin-left: 15px;
+    margin-left: 35px;
     padding: 0 10px 0 10px;
     display: flex;
     align-items: start;
     }
 
     .agrupar-pesquisa {
-        margin-left: -20px;
+    margin-left: -20px;
     }
 
     .barra-pesquisa {
-        font-size: 18px;
-        margin-right: 110px;
+    font-size: 18px;
+    margin-right: 110px;
     }
 
     .filtro-pesquisar {
-        font-size: 18px;
-        margin: 10px 0 10px;
-        color: #a9a9a9;
-        width: 340px;
+    font-size: 18px;
+    margin: 10px 0 10px;
+    color: #a9a9a9;
+    width: 340px;
     }
 
     .primeira-secao-logos {
-        margin-top: 50px;
+    margin-top: 50px;
     }
 
     .primeira-secao-logos img {
-        width: 100%;
+    width: 100%;
     }
 }
