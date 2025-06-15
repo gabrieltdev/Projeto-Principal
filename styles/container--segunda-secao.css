@@ -19,6 +19,14 @@
     margin-top: 125px;
 }
 
+.paragrafo-segunda-secao {
+    color: #BFB4D0;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
 .segunda-secao-lista-conteudo {
     display: flex;
     gap: 12px;
@@ -84,6 +92,7 @@ font-size: 21px;
 
 .botao-anunciar-segunda-secao {
 min-width: 315px;
+margin-top: 10px;
 justify-content: center;
 }
 }
