@@ -54,7 +54,7 @@
 
 .segunda-secao-textos {
     width: 340px;
-    margin: 0 0 0 45px;
+    margin: 0 auto;
     position: relative;bottom: 160px;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .botao-anunciar-segunda-secao {
-    min-width: 345px;
+    min-width: 315px;
     justify-content: center;
 }
 }
