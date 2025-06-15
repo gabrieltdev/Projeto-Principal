@@ -69,8 +69,8 @@ p {
 
 @media (max-width: 844px) {
     .background-image {
-        background-position: -455px top ,-250px 1620px ,bottom ;
-        background-size: 240% ,240%;
+        background-position: -455px top;
+        background-size: 240%;
     }
 
     .overlay {
