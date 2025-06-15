@@ -43,7 +43,39 @@
 }
 
 @media (max-width: 844px) {
-    .quinta-secao {
+.quinta-secao {
+margin-top: 80px;
+}
 
-    }
+.quinta-secao-titulo {
+font-size: 33px;
+}
+
+.quinta-secao-palavra-gamers {
+width: 80%;
+}
+
+.quinta-secao-imagem {
+width: 80%;
+position: relative;bottom: 10px;
+}
+
+.quinta-secao-icone-chat {
+position: relative;bottom: 180px;left: 12px;
+width: 20%;
+}
+
+.quinta-secao-icone-controle {
+position: relative;bottom: 70px;right: 110px;
+width: 20%;
+}
+
+.quinta-secao-icones {
+    height: 280px;
+}
+
+.botao-quinta-secao {
+    padding: 8px 13%;
+}
+
 }
