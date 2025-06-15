@@ -1,16 +1,19 @@
 .terceira-secao {
-    margin:215px 0px 90px 215px ;
+    margin:215px 0px 90px 160px ;
     display: flex;
-    justify-content: center;
 }
 
-.terceira-secao-card {
-    background-color: #210948;
-    border-radius: 20px;
-    height: 246px;
-    width: 600px;
-    text-align: center;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+.terceira-secao-imagem-homem-aranha {
+    margin: -250px -100px;
+}
+
+.terceira-secao-imagem-homem-aranha img {
+    max-width: 785px;
+    max-height: 785px;
+}
+
+.terceira-secao-imagem-pequena {
+    display: none;
 }
 
 .titulo-terceira-secao {
@@ -23,9 +26,26 @@
     padding-bottom: 23px;
 }
 
+
 .titulo-terceira-secao span {
     color: #ffffff;
     font-weight: 700;
+}
+
+.terceira-secao-paragrafo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #BFB4D0;
+    margin-top: 0px;
+}
+
+.terceira-secao-card {
+    background-color: #210948;
+    border-radius: 20px;
+    height: 246px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
 
 .barra-xp {
@@ -51,13 +71,6 @@
     position: relative;bottom: 28px; left: 50%;
 }
 
-.terceira-secao-paragrafo {
-    font-size: 20px;
-    font-weight: 700;
-    color: #BFB4D0;
-    margin-top: 0px;
-}
-
 .terceira-secao-card-dois {
     background-color: #210948B2;opacity: 0.7;
     position: relative; top: 47px; left: 42px;
@@ -78,37 +91,49 @@
     box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
 
-.terceira-secao-imagem-homem-aranha {
-    position: relative;bottom: 250px; right: 125px;
-}
-
-.terceira-secao-imagem-homem-aranha img {
-    width: 785px;
-    height: 785px;
-}
-
 @media (max-width: 844px) {
-    .terceira-secao {
-        flex-direction: column-reverse;
-        margin: 0 0 300px 0;
-        text-align: center;
-    }
+.terceira-secao {
+flex-direction: column-reverse;
+text-align: center;
+align-items: center;
+margin: 10px auto;
+}
 
-    .titulo {
-        font-size: 33px;
-    }
+.terceira-secao-imagem-grande {
+display: none;
+}
 
-    .paragrafo-terceira-secao {
-        width: 90%;
-        text-align: center;
-    }
+.terceira-secao-imagem-homem-aranha {
+max-width: 420px;
+max-height: 330px;
+margin: 0;
+}
 
-    .paragrafo {
-        font-size: 20px;
-    }
+.terceira-secao-imagem-pequena {
+display: flex;
+width: 370px;
+height: 370px;
+}
 
-    .terceira-secao-card {
-    height: 146px;
-    width: 400px;
-    }
+.terceira-secao-titulo {
+    margin-top: -75px;
+}
+
+.titulo {
+font-size: 33px;
+}
+
+.paragrafo-terceira-secao {
+width: 90%;
+text-align: center;
+}
+
+.paragrafo {
+font-size: 20px;
+}
+
+.terceira-secao-card {
+height: 146px;
+width: 400px;
+}
 }

@@ -39,49 +39,51 @@
 
 @media (max-width: 430px) {
 .segunda-secao {
-    flex-direction: column;
-    text-align: center;
+flex-direction: column;
+text-align: center;
+max-height: 1000px;
+margin-top: 200px;
 }
 
 .segunda-secao-imagem-container {
-    margin: 0;
+margin: 0;
 }
 
 .segunda-secao-imagem {
-    width: 306px;
-    height: 480px;
+width: 306px;
+height: 480px;
 }
 
 .segunda-secao-textos {
-    width: 340px;
-    margin: 0 auto;
-    position: relative;bottom: 160px;
+width: 340px;
+margin: 0 auto;
+position: relative;bottom: 160px;
 }
 
 .titulo-segunda-secao {
-    font-size: 30px;
+font-size: 30px;
 }
 
 .paragrafo-segunda-secao {
-    font-size: 20px;
+font-size: 20px;
 }
 
 .quebra-linha {
-    display: inline;
+display: inline;
 }
 
 .segunda-secao-lista-conteudo {
-    margin-left: 10px;
+margin-left: 10px;
 }
 
 .segunda-secao-texto-lista-paragrafo {
-    font-weight: 300;
-    margin-bottom: 20px;
-    font-size: 21px;
+font-weight: 300;
+margin-bottom: 20px;
+font-size: 21px;
 }
 
 .botao-anunciar-segunda-secao {
-    min-width: 315px;
-    justify-content: center;
+min-width: 315px;
+justify-content: center;
 }
 }
