@@ -146,6 +146,7 @@ margin: 0;
 }
 
 .titulo-terceira-secao {
+z-index: 1;
 margin-top: -75px;
 font-size: 33px;
 }
