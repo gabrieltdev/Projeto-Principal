@@ -47,20 +47,20 @@
 
 
 @media (max-width: 430px) {
-    .cabecalho {
-        height: 95px;
-    }
+.cabecalho {
+    height: 95px;
+}
 
-    .logotipo {
-        margin-left: 26px;
-        width: 18%;
-    }
+.logotipo {
+    margin-left: 26px;
+    width: 18%;
+}
 
-    .botoes-cabecalho {
-        display: none;
-    }
+.botoes-cabecalho {
+    display: none;
+}
 
-    .menu-hamburguer {
-        display: flex;
-    }
+.menu-hamburguer {
+    display: flex;
+}
 }
