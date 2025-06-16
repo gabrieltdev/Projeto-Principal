@@ -217,13 +217,22 @@ margin-top: 10px;
 margin: 0;
 }
 
+
+.rodape-segundo-container-principal {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .rodape-linha {
-width: 300%;
+width: 120%;
 margin: 0;
 }
 
 .rodape-segundo-container {
 gap: 10px;
+justify-content: center;
 }
 
 .rodape-logotipo {
@@ -235,6 +244,6 @@ width: 70%;
 }
 
 .rodape-creditos {
-    position: absolute;top: 730px;right: 30px;
+    position: absolute;top: 730px;
 }
 }
