@@ -131,6 +131,7 @@ footer::before {
     font-weight: 300;
     white-space: nowrap;
     z-index: 1;
+    text-align: center;
 }
 
 .rodape-botao {
