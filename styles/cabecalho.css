@@ -81,7 +81,7 @@ justify-content: center;
 }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1030px) and (min-width: 430px) {
 .logotipo {
 margin-left: 20px;
 }

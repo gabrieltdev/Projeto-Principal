@@ -208,7 +208,11 @@ margin-top: -10px;
 }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1030px) and (min-width: 430px) {
+.terceira-secao {
+margin-bottom: 80px;
+}
+
 .terceira-secao-container {
 gap: 20px;
 margin-right: -145px;
