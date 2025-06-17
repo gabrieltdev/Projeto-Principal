@@ -28,7 +28,7 @@
                 <div class="botoes-cabecalho">
                 <a href="#" class="botao-entrar">Entrar</a>
                 <a href="#" class="botao-anunciar">Anunciar Grátis</a>
-                
+
                 <div class="menu-hamburguer" onclick="abrirMenu()">
                     <div></div>
                     <div></div>
@@ -42,7 +42,7 @@
                     <h1 class="primeira-secao-titulo">>> <span>Compre</span><br>os melhores artigos<br>gamers na sua cidade!</h1>
                     <p class="primeira-secao-paragrafo">Nunca foi tão fácil conseguir aquele jogo ou<br>console tão sonhado com a XP Zone.</p>
                     <div class="pesquisa">
-                        <select class="filtro-pesquisar">
+                        <select name="filtro" class="filtro-pesquisar">
                             <option selected>Filtre sua cidade</option>
                             <option value="rj">São Paulo</option>
                             <option value="sp">Rio de Janeiro</option>
@@ -50,9 +50,9 @@
 
                         <div class="linha-pesquisar"></div>
                         <div class="agrupar-pesquisa">
-                            <input class="barra-pesquisa" type="search" id="" placeholder="O que deseja hoje?">
+                            <input class="barra-pesquisa" type="search" id="pesquisar" placeholder="O que deseja hoje?">
 
-                            <button class="botao-pesquisar" onclick="pesquisar()" type="button"><img class="imagem-botao" src="img/pesquisar.png" alt=""></button>
+                            <button class="botao-pesquisar" onclick="pesquisar()" type="button"><img class="imagem-botao" src="img/pesquisar.png" alt="icone de lupa"></button>
                         </div>
                     </div>
                     <div class="primeira-secao-logos"><img src="img/logos.png" alt="logos de empresas de jogos"></div>
@@ -148,7 +148,7 @@
                 </div>
 
                 <div class="quarta-secao-pesquisa">
-                        <select class="quarta-secao-filtro-pesquisar">
+                        <select name="filtro" class="quarta-secao-filtro-pesquisar">
                             <option selected>Filtre sua cidade</option>
                             <option value="rj">São Paulo</option>
                             <option value="sp">Rio de Janeiro</option>
@@ -189,7 +189,7 @@
                     <h2 class="rodape-titulo">Um lugar<br>para jogadores</h2>
                         <div class="rodape-secao-pesquisa">
                             <img class="imagem-bandeira" src="img/ic-brazil-flag.svg" alt="bandeira do brasil">
-                            <select class="rodape-secao-filtro-pesquisar">
+                            <select name="filtro" class="rodape-secao-filtro-pesquisar">
                                 <img src="img/ic-brazil-flag.svg" alt="bandeira do brasil">
                                 <option selected>Português do Brasil</option>
                                 <option value="ingles">Inglês</option>
