@@ -80,7 +80,7 @@ p {
     }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1030px) and (min-width: 430px) {
         .background-image {
         background-position: top;
         background-size: 135%;

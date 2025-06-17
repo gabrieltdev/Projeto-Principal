@@ -150,7 +150,7 @@ footer::before {
     display: flex;
 }
 
-@media (max-width: 844px) {
+@media (max-width: 430px) {
 footer {
 height: 780px;
 padding-top: 15px;
@@ -254,4 +254,8 @@ width: 70%;
 .rodape-creditos {
 position: absolute;top: 730px;
 }
+}
+
+@media (max-width: 1030px) and (min-width: 430px) {
+    
 }
