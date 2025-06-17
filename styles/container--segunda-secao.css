@@ -103,7 +103,7 @@ gap: 15px;
 }
 
 .segunda-secao-imagem-container {
-margin-left: 0px;
+margin-left: 15px;
 }
 
 .segunda-secao-imagem {
@@ -121,7 +121,7 @@ display: inline;
 }
 
 .titulo-segunda-secao {
-font-size: 50px;
+font-size: 45px;
 white-space: nowrap;
 }
 
