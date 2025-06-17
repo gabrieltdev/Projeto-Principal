@@ -85,4 +85,9 @@ p {
         background-position: top;
         background-size: 135%;
     }
+
+        .background-images {
+        background-position: -250px 1420px, bottom;
+        background-size: 140%, 100%;
+    }
 }

@@ -96,3 +96,52 @@ margin-top: 10px;
 justify-content: center;
 }
 }
+
+@media (max-width: 1030px) {
+.segunda-secao {
+gap: 15px;
+}
+
+.segunda-secao-imagem-container {
+margin-left: 0px;
+}
+
+.segunda-secao-imagem {
+width: 430px;
+height: 600px;
+}
+
+.segunda-secao-textos {
+width: 450px;
+margin: 0 0;
+}
+
+.quebra-linha {
+display: inline;
+}
+
+.titulo-segunda-secao {
+font-size: 50px;
+white-space: nowrap;
+}
+
+.paragrafo-segunda-secao {
+font-size: 20px;
+width: 360px;
+}
+
+.segunda-secao-lista-conteudo {
+gap: 12px;
+margin-bottom: 20px;
+}
+
+.segunda-secao-texto-lista-paragrafo {
+font-weight: 400;
+font-size: 22px;
+color: #BFB4D0;
+}
+
+.botao-anunciar-segunda-secao {
+margin-top: 10px;
+}
+}
