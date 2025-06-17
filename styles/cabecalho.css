@@ -38,12 +38,18 @@
     margin-right: 5px;
     width: 24px;
     height: 24px;
-    background-image: url(/img/menu-burger.png);
-    background-color: #E44963;
+    background-color: transparent;
     background-repeat: no-repeat;
     background-size: 90%;
+    gap: 4px;
 }
 
+.linhas {
+    background-color: #FFFFFF;
+    width: 20px;
+    border-radius: 1px;
+    height: 2px;
+}
 
 @media (max-width: 430px) {
 .cabecalho {
@@ -69,5 +75,7 @@
 
 .menu-hamburguer {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 }
